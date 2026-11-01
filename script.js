@@ -26,5 +26,5 @@ document.getElementById("enquiryForm").addEventListener("submit", (event) => {
   );
   document.getElementById("formMessage").textContent =
     "Opening your email application with the enquiry details. Please review and send the email.";
-  window.location.href = `mailto:info@ecopavesolutions.in?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:omopstm@gmail.com?subject=${subject}&body=${body}`;
 });
